@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cliente nuevo</title>
+</head>
+<body>
+	<h1>Actualizar</h1>
+	<form  method="POST" enctype="multipart/form-data">
+		{%csrf_token%} <!-- seguridad en formularios de django, ponerlos siempre que tengamos un post -->
+		{{form.as_p}} <!-- pone en lista -->
+			
+			<button type='submit'>Guardar</button>
+			 
+	</form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+	background-color: #abbcbc;
+}
+li{
+	display: block; 
+}
+.elementos{
+	display: block;
+	text-align: center;
+}
+#objeto{
+	text-align: center;
+	width: 400px;
+}
+img{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
